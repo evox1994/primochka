@@ -268,6 +268,9 @@
 	font-size: 16px;
 	background-color: #464646;
 }
+.breadcrumbs .btn:hover {
+	background-color: #565656;
+}
 
 .b-title {
 	display: block;
@@ -294,6 +297,9 @@
 	text-align: center;
 	padding: 24px 10px;
 	border: 0;
+}
+.b-btn:hover {
+	background-color: #4098a4;
 }
 
 .b-ekr {
@@ -350,6 +356,23 @@
 	display: block;
 	max-width: 100%;
 	margin: 0 auto;
+}
+.face-slider .slick-track {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+.face-slider .slide {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	height: auto;
 }
 .face .b-title {
 	font-size: 42px;

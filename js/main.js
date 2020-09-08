@@ -101,4 +101,13 @@ $(document).ready(function(){
 	}
 	footerYear();
 
+	$('.face-slider').slick({
+		arrows: false,
+		fade: true,
+		autoplay: true,
+		autoplaySpeed: 3100,
+		pauseOnHover: false,
+		pauseOnFocus: false
+	});
+
 });
