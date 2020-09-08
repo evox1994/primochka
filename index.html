@@ -74,7 +74,7 @@
 				<div class="wrap">
 					<div class="content">
 						<h2 class="b-title">Специализированный сервис по&nbsp;ремонту двигателей для иномарок в&nbsp;Томске</h2>
-						<div class="text">Диагностика и все виды услуг для<br><span id="typed">PORSCHE</span></div>
+						<div class="text">Диагностика и все виды услуг для<br><span id="typed"></span></div>
 						<a href="#" class="b-btn">Рассчитать стоимость</a>
 					</div>
 					<div class="image">
@@ -356,6 +356,15 @@
 	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
 	<script type="text/javascript" src="js/jquery.inputmask.bundle.js"></script>
 	<script type="text/javascript" src="js/slick.js"></script>
+	<script type="text/javascript" src="js/typed.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+		$('#typed').typed({
+			strings: ['Porsche', 'Mercedes', 'BMW', 'Audi', 'Toyota', 'Lexus', 'Infiniti', 'Subaru'],
+			contentType: 'html',
+			loop: true,
+			backDelay: 1000
+		});
+	</script>
 </body>
 </html>
