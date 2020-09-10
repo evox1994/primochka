@@ -1043,6 +1043,19 @@
 	color: #66c4d1;
 }
 
+.b-policy {
+	margin-top: 50px;
+	text-align: left;
+}
+.b-policy .title {
+	display: block;
+	font-size: 24px;
+	font-weight: 700;
+}
+.b-policy .b-text {
+	margin-top: 25px;
+}
+
 
 
 
@@ -1230,6 +1243,16 @@
 	}
 	.b-thanks .links > li {
 		font-size: 20px;
+	}
+
+	.b-policy {
+		margin-top: 30px;
+	}
+	.b-policy .title {
+		font-size: 20px;
+	}
+	.b-policy .b-text {
+		margin-top: 20px;
 	}
 }
 @media screen and (max-width: 768px){
@@ -1578,6 +1601,16 @@
 	}
 	.b-thanks .links > li {
 		font-size: 16px;
+	}
+
+	.b-policy {
+		margin-top: 20px;
+	}
+	.b-policy .title {
+		font-size: 16px;
+	}
+	.b-policy .b-text {
+		margin-top: 10px;
 	}
 }
 @media screen and (max-width: 560px){
